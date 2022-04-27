@@ -7,10 +7,10 @@ plusButton.addEventListener('click',()=> {
   updateDisplay();
 })
 minusButton.addEventListener('click',()=> {
-  if(counter > 1)
+  if(counter > 0)
   {
     counter--
-  updateDisplay();
+    updateDisplay();
   }
 })
 function updateDisplay()
