@@ -2,7 +2,10 @@ const buttonArr = [
   document.querySelector('#limestone-quantity-up'),
   document.querySelector("#limestone-quantity-down"),
   document.querySelector('#bertrandite-quantity-up'),
-  document.querySelector("#bertrandite-quantity-down")
+  document.querySelector("#bertrandite-quantity-down"),
+  document.querySelector(".limestone-remove"),
+  document.querySelector(".bertrandite-remove")
+  
 ]
 const textArr = [
   document.querySelector(".limestone-total-quantity"),
