@@ -2,14 +2,15 @@ const buttonArr = [
   document.querySelector('#limestone-quantity-up'),
   document.querySelector("#limestone-quantity-down"),
   document.querySelector('#bertrandite-quantity-up'),
-  document.querySelector("#bertrandite-quantity-down"),
-  document.querySelector(".limestone-remove"),
-  document.querySelector(".bertrandite-remove")
-  
+  document.querySelector("#bertrandite-quantity-down")
 ]
 const textArr = [
   document.querySelector(".limestone-total-quantity"),
   document.querySelector(".bertrandite-total-quantity")
+]
+const removeArr = [
+  document.querySelector(".limestone-remove"),
+  document.querySelector(".bertrandite-remove")
 ]
 let counter = 1
 let text
